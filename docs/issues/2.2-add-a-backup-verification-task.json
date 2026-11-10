@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add a backup verification task",
+  "context": "Backups exist but are not checked.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Verify the bundle checksum and restore path.",
+    "expected_outcome": "A failed backup is visible.",
+    "acceptance_criteria": [
+      "Verification is scripted",
+      "Status is recorded"
+    ]
+  },
+  "attempts": []
+}

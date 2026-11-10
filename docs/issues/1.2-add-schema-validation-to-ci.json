@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add schema validation to CI",
+  "context": "The current CI only checks JSON syntax.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Validate every dataset against its schema.",
+    "expected_outcome": "Invalid datasets fail CI.",
+    "acceptance_criteria": [
+      "Validation runs locally",
+      "Failures name the file"
+    ]
+  },
+  "attempts": []
+}

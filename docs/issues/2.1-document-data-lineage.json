@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document data lineage",
+  "context": "The source of each dataset is unclear.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document producer, source, and transformation.",
+    "expected_outcome": "Every dataset has a lineage record.",
+    "acceptance_criteria": [
+      "Producer is documented",
+      "Source is documented"
+    ]
+  },
+  "attempts": []
+}

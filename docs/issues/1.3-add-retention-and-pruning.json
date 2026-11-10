@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Add retention and pruning",
+  "context": "Daily files accumulate indefinitely.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Define retention and prune old files.",
+    "expected_outcome": "The repository stays within budget.",
+    "acceptance_criteria": [
+      "Retention is documented",
+      "Pruning is tested"
+    ]
+  },
+  "attempts": []
+}

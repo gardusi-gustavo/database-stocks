@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add a dataset catalog",
+  "context": "Consumers need an index.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Generate a catalog with dates, sizes, and checksums.",
+    "expected_outcome": "A client can discover the latest file.",
+    "acceptance_criteria": [
+      "Catalog is generated in CI",
+      "Checksums are included"
+    ]
+  },
+  "attempts": []
+}

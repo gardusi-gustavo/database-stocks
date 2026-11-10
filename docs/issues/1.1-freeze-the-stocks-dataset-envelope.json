@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze the stocks dataset envelope",
+  "context": "The first release needs one stable shape.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document and validate the stocks envelope.",
+    "expected_outcome": "Consumers can validate every daily file.",
+    "acceptance_criteria": [
+      "Envelope schema is committed",
+      "One sample file passes"
+    ]
+  },
+  "attempts": []
+}
